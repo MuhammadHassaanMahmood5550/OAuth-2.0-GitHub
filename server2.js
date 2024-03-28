@@ -27,8 +27,8 @@ passport.use(
   new oauthGitHubStratagy(
     {
       clientID:
-        "3a286c6cf0ce3fb32ba1",
-      clientSecret: "af8a3add471c8b9df16e4e61c297ed64465fa76d",
+        "********",
+      clientSecret: "*******",
       callbackURL: "http://localhost:4000/callBackURL",
     },
     (accessToken, refreshToken, profile, done) => {
